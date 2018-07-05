@@ -73,5 +73,4 @@ public class ErrorResponseBodyImplTest {
         ErrorResponseBodyImpl adapter = new ErrorResponseBodyImpl(errorContract);
         verifyAdapter(adapter, errorUuid, errorsList);
     }
-
 }
